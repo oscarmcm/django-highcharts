@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_django-highcharts
+test_dj-highcharts
 ------------
 
-Tests for `django-highcharts` models module.
+Tests for `dj-highcharts` models module.
 """
 
 from django.test import TestCase
 
-from django_highcharts import models
+from dj_highcharts import models
 
 
-class TestDjango_highcharts(TestCase):
+class TestDj_highcharts(TestCase):
 
     def setUp(self):
         pass

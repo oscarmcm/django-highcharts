@@ -19,5 +19,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('django_highcharts.urls', namespace='django_highcharts')),
+    url(r'', include('dj_highcharts.urls', namespace='dj_highcharts')),
 ]

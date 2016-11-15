@@ -31,27 +31,25 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-highcharts',
+    name='dj-highcharts',
     version=version,
-    description="""Django + Higchart made easy""",
+    description="""Django + Highcharts made easy""",
     long_description=readme + '\n\n' + history,
     author='Oscar Cortez',
     author_email='om.cortez.2010@gmail.com',
-    url='https://github.com/oscarmcm/django-highcharts',
+    url='https://github.com/oscarmcm/dj-highcharts',
     packages=[
-        'django_highcharts',
+        'dj_highcharts',
     ],
     include_package_data=True,
     install_requires=["django-model-utils>=2.0",],
     license="MIT",
     zip_safe=False,
-    keywords='django-highcharts',
+    keywords='dj-highcharts',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django',
         'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.10',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',

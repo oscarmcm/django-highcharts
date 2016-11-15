@@ -2,29 +2,29 @@
 Django Highcharts
 =============================
 
-.. image:: https://badge.fury.io/py/django-highcharts.png
-    :target: https://badge.fury.io/py/django-highcharts
+.. image:: https://badge.fury.io/py/dj-highcharts.png
+    :target: https://badge.fury.io/py/dj-highcharts
 
-.. image:: https://travis-ci.org/oscarmcm/django-highcharts.png?branch=master
-    :target: https://travis-ci.org/oscarmcm/django-highcharts
+.. image:: https://travis-ci.org/oscarmcm/dj-highcharts.png?branch=master
+    :target: https://travis-ci.org/oscarmcm/dj-highcharts
 
-Django + Higchart made easy
+Django + Highcharts made easy
 
 Documentation
 -------------
 
-The full documentation is at https://django-highcharts.readthedocs.org.
+The full documentation is at https://dj-highcharts.readthedocs.org.
 
 Quickstart
 ----------
 
 Install Django Highcharts::
 
-    pip install django-highcharts
+    pip install dj-highcharts
 
 Then use it in a project::
 
-    import django_highcharts
+    import dj_highcharts
 
 Features
 --------

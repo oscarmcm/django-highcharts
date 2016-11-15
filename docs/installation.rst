@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install django-highcharts
+    $ easy_install dj-highcharts
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv django-highcharts
-    $ pip install django-highcharts
+    $ mkvirtualenv dj-highcharts
+    $ pip install dj-highcharts
